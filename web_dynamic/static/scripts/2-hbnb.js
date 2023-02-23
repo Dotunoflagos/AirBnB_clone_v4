@@ -1,7 +1,6 @@
 $(() => {
   const input = $("ul li input[type='checkbox']")
   const search = $("div.amenities h4")
-  console.log(search)
   let variable = []
   let searval = []
   //jquery
@@ -24,4 +23,12 @@ $(() => {
     }
     search.text(searval.join(', '))
   })
+
+  $.ajax('http://0.0.0.0:5001/api/v1/status').done(function (data) {
+    if (data.status === 'OK') {
+      $('#api_status').addClass('available');
+    } else {
+      $('#api_status').removeClass('available');
+    }
+  });
 })
