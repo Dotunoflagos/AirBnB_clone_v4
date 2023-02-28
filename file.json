@@ -1,1 +1,592 @@
-{"Amenity.136b09dd-3658-4f2a-a270-e0274b570316": {"id": "136b09dd-3658-4f2a-a270-e0274b570316", "created_at": "2023-02-22T04:32:38.129171", "updated_at": "2023-02-24T02:25:05.736343", "name": "Air condition", "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee", "__class__": "Amenity"}, "Amenity.027a43c9-0676-438f-9555-e8172713b82d": {"id": "027a43c9-0676-438f-9555-e8172713b82d", "created_at": "2023-02-22T04:32:39.144788", "updated_at": "2023-02-24T02:29:38.076980", "name": "Wifi", "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee", "__class__": "Amenity"}, "Amenity.7df46e6a-98cc-44e1-99b4-3b63c60ef14b": {"id": "7df46e6a-98cc-44e1-99b4-3b63c60ef14b", "created_at": "2023-02-22T04:56:51.453364", "updated_at": "2023-02-24T02:29:59.243813", "name": "2beds", "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee", "__class__": "Amenity"}, "Amenity.497958b8-7797-48a4-8f5b-947c936029c1": {"id": "497958b8-7797-48a4-8f5b-947c936029c1", "created_at": "2023-02-22T04:56:53.841543", "updated_at": "2023-02-24T02:30:29.024868", "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee", "__class__": "Amenity"}, "Place.0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee": {"id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee", "created_at": "2023-02-23T23:56:00.461075", "updated_at": "2023-02-24T01:43:07.906102", "user": "coster dieago", "number_bathrooms": 12, "name": "lavida", "price_by_night": 200, "max_guest": 32, "number_rooms": 30, "__class__": "Place"}, "Place.17667942-b87a-4e0a-8ae1-2aec7d80611f": {"id": "17667942-b87a-4e0a-8ae1-2aec7d80611f", "created_at": "2023-02-23T23:56:04.278317", "updated_at": "2023-02-24T01:29:10.522446", "user": "Balogun", "number_bathrooms": 4, "__class__": "Place"}, "Place.15a5787c-49e5-4401-973e-1a59b1e2475d": {"id": "15a5787c-49e5-4401-973e-1a59b1e2475d", "created_at": "2023-02-23T23:56:05.556248", "updated_at": "2023-02-24T01:39:18.019463", "user": "quadri", "number_bathrooms": 4, "{number_bathrooms": "4", "number_bathrooms:": "4", "rooms:": "3", "__class__": "Place"}}
+{
+    "Amenity.136b09dd-3658-4f2a-a270-e0274b570316": {
+        "id": "136b09dd-3658-4f2a-a270-e0274b570316",
+        "created_at": "2023-02-22T04:32:38.129171",
+        "updated_at": "2023-02-24T02:25:05.736343",
+        "name": "Air condition",
+        "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee",
+        "__class__": "Amenity"
+    },
+    "Amenity.027a43c9-0676-438f-9555-e8172713b82d": {
+        "id": "027a43c9-0676-438f-9555-e8172713b82d",
+        "created_at": "2023-02-22T04:32:39.144788",
+        "updated_at": "2023-02-24T02:29:38.076980",
+        "name": "Wifi",
+        "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee",
+        "__class__": "Amenity"
+    },
+    "Amenity.7df46e6a-98cc-44e1-99b4-3b63c60ef14b": {
+        "id": "7df46e6a-98cc-44e1-99b4-3b63c60ef14b",
+        "created_at": "2023-02-22T04:56:51.453364",
+        "updated_at": "2023-02-24T02:29:59.243813",
+        "name": "2beds",
+        "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee",
+        "__class__": "Amenity"
+    },
+    "Amenity.497958b8-7797-48a4-8f5b-947c936029c1": {
+        "id": "497958b8-7797-48a4-8f5b-947c936029c1",
+        "created_at": "2023-02-22T04:56:53.841543",
+        "updated_at": "2023-02-24T02:30:29.024868",
+        "place_id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee",
+        "__class__": "Amenity"
+    },
+    "Place.0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee": {
+        "id": "0fc3c8b1-17ed-4ce2-97f5-8ff696c082ee",
+        "created_at": "2023-02-23T23:56:00.461075",
+        "updated_at": "2023-02-24T01:43:07.906102",
+        "user": "coster dieago",
+        "number_bathrooms": 12,
+        "name": "lavida",
+        "price_by_night": 200,
+        "max_guest": 32,
+        "number_rooms": 30,
+        "__class__": "Place"
+    },
+    "Place.17667942-b87a-4e0a-8ae1-2aec7d80611f": {
+        "id": "17667942-b87a-4e0a-8ae1-2aec7d80611f",
+        "created_at": "2023-02-23T23:56:04.278317",
+        "updated_at": "2023-02-24T01:29:10.522446",
+        "user": "Balogun",
+        "number_bathrooms": 4,
+        "__class__": "Place"
+    },
+    "Place.15a5787c-49e5-4401-973e-1a59b1e2475d": {
+        "id": "15a5787c-49e5-4401-973e-1a59b1e2475d",
+        "created_at": "2023-02-23T23:56:05.556248",
+        "updated_at": "2023-02-24T01:39:18.019463",
+        "user": "quadri",
+        "number_bathrooms": 4,
+        "{number_bathrooms": "4",
+        "number_bathrooms:": "4",
+        "rooms:": "3",
+        "__class__": "Place"
+    },
+    "State.989eadef-6d08-4960-ad07-c2fd081a03ab": {
+        "id": "989eadef-6d08-4960-ad07-c2fd081a03ab",
+        "created_at": "2023-02-24T02:54:00.403599",
+        "updated_at": "2023-02-24T03:12:59.711252",
+        "name": "arizona",
+        "__class__": "State"
+    },
+    "State.4da26b1f-3e02-42b1-8542-74b1c03044cd": {
+        "id": "4da26b1f-3e02-42b1-8542-74b1c03044cd",
+        "created_at": "2023-02-24T02:54:02.438573",
+        "updated_at": "2023-02-24T03:13:30.407576",
+        "name": "texas",
+        "__class__": "State"
+    },
+    "State.31f83214-3ea0-455a-8bf4-67e0467bea48": {
+        "id": "31f83214-3ea0-455a-8bf4-67e0467bea48",
+        "created_at": "2023-02-24T02:54:02.829706",
+        "updated_at": "2023-02-24T03:14:02.898476",
+        "name": "mesa",
+        "__class__": "State"
+    },
+    "State.55e9bd68-c774-46f7-93e1-34d301739dea": {
+        "id": "55e9bd68-c774-46f7-93e1-34d301739dea",
+        "created_at": "2023-02-24T02:54:03.226022",
+        "updated_at": "2023-02-24T03:14:34.677809",
+        "name": "toronto",
+        "__class__": "State"
+    },
+    "City.3e3ce9a7-6816-4af4-bea0-b19b54c3162b": {
+        "id": "3e3ce9a7-6816-4af4-bea0-b19b54c3162b",
+        "created_at": "2023-02-24T02:54:09.738892",
+        "updated_at": "2023-02-24T02:54:09.738926",
+        "__class__": "City"
+    },
+    "City.554027e1-23b0-450f-a1a0-101a50f3ba04": {
+        "id": "554027e1-23b0-450f-a1a0-101a50f3ba04",
+        "created_at": "2023-02-24T02:54:11.344037",
+        "updated_at": "2023-02-24T02:54:11.344089",
+        "__class__": "City"
+    },
+    "City.216dfd53-fc66-4b51-b705-80930da59b70": {
+        "id": "216dfd53-fc66-4b51-b705-80930da59b70",
+        "created_at": "2023-02-24T02:54:12.255894",
+        "updated_at": "2023-02-24T02:54:12.255929",
+        "__class__": "City"
+    },
+    "City.ab086369-12ee-4558-a2a3-9307a8e75d36": {
+        "id": "ab086369-12ee-4558-a2a3-9307a8e75d36",
+        "created_at": "2023-02-24T02:54:12.888740",
+        "updated_at": "2023-02-24T02:54:12.888785",
+        "__class__": "City"
+    },
+    "State.4e0de712-b2ff-4068-b25d-a219da615d37": {
+        "name": "California",
+        "created_at": "2023-02-24T03:42:41.132757",
+        "updated_at": "2023-02-24T03:42:41.132821",
+        "id": "4e0de712-b2ff-4068-b25d-a219da615d37",
+        "__class__": "State"
+    },
+    "State.ed4fd698-cec6-4a88-87bc-e8bb23a26301": {
+        "name": "Arizona",
+        "created_at": "2023-02-24T03:42:41.133190",
+        "updated_at": "2023-02-24T03:42:41.133234",
+        "id": "ed4fd698-cec6-4a88-87bc-e8bb23a26301",
+        "__class__": "State"
+    },
+    "City.8481a185-71d7-4502-9f26-46dddf2c797d": {
+        "state_id": "4e0de712-b2ff-4068-b25d-a219da615d37",
+        "name": "Napa",
+        "created_at": "2023-02-24T03:42:41.134045",
+        "updated_at": "2023-02-24T03:42:41.134112",
+        "id": "8481a185-71d7-4502-9f26-46dddf2c797d",
+        "__class__": "City"
+    },
+    "City.2ff7761e-19de-4470-838b-9d6526aa408c": {
+        "state_id": "4e0de712-b2ff-4068-b25d-a219da615d37",
+        "name": "Sonoma",
+        "created_at": "2023-02-24T03:42:41.134486",
+        "updated_at": "2023-02-24T03:42:41.134543",
+        "id": "2ff7761e-19de-4470-838b-9d6526aa408c",
+        "__class__": "City"
+    },
+    "City.b8168d05-a5c1-4240-a5e4-4fbffac2b9af": {
+        "state_id": "ed4fd698-cec6-4a88-87bc-e8bb23a26301",
+        "name": "Page",
+        "created_at": "2023-02-24T03:42:41.134877",
+        "updated_at": "2023-02-24T03:42:41.134926",
+        "id": "b8168d05-a5c1-4240-a5e4-4fbffac2b9af",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479545": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479545",
+        "name": "Akron",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479545",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479546": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479546",
+        "name": "Douglas",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479546",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479547": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479547",
+        "name": "San Francisco",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479547",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479548": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479548",
+        "name": "Denver",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479548",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479549": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479549",
+        "name": "Miami",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479549",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479551": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479551",
+        "name": "Honolulu",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479551",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479552": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479552",
+        "name": "Chicago",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479554": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479554",
+        "name": "New Orleans",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479554",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479555": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479555",
+        "name": "Saint Paul",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479555",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479556": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479556",
+        "name": "Jackson",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479556",
+        "__class__": "City"
+    },
+    "City.521a55f4-7d82-47d9-b54c-a76916479557": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479557",
+        "name": "Portland",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "521a55f4-7d82-47d9-b54c-a76916479557",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479545": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479545",
+        "name": "Babbie",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479545",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479546": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479546",
+        "name": "Kearny",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479546",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479547": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479547",
+        "name": "San Jose",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479547",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479549": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479549",
+        "name": "Orlando",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479549",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479551": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479551",
+        "name": "Kailua",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479551",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479552": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479552",
+        "name": "Peoria",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479554": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479554",
+        "name": "Baton rouge",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479554",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479556": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479556",
+        "name": "Tupelo",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479556",
+        "__class__": "City"
+    },
+    "City.531a55f4-7d82-47d9-b54c-a76916479557": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479557",
+        "name": "Eugene",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "531a55f4-7d82-47d9-b54c-a76916479557",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479545": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479545",
+        "name": "Calera",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479545",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479546": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479546",
+        "name": "Tempe",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479546",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479547": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479547",
+        "name": "Fremont",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479547",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479551": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479551",
+        "name": "Pearl city",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479551",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479552": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479552",
+        "name": "Naperville",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479554": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479554",
+        "name": "Lafayette",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479554",
+        "__class__": "City"
+    },
+    "City.541a55f4-7d82-47d9-b54c-a76916479556": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479556",
+        "name": "Meridian",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "541a55f4-7d82-47d9-b54c-a76916479556",
+        "__class__": "City"
+    },
+    "City.551a55f4-7d82-47d9-b54c-a76916479545": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479545",
+        "name": "Fairfield",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "551a55f4-7d82-47d9-b54c-a76916479545",
+        "__class__": "City"
+    },
+    "City.551a55f4-7d82-47d9-b54c-a76916479547": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479547",
+        "name": "Napa",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "551a55f4-7d82-47d9-b54c-a76916479547",
+        "__class__": "City"
+    },
+    "City.551a55f4-7d82-47d9-b54c-a76916479552": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479552",
+        "name": "Urbana",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "551a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "City"
+    },
+    "City.561a55f4-7d82-47d9-b54c-a76916479547": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479547",
+        "name": "Sonoma",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "561a55f4-7d82-47d9-b54c-a76916479547",
+        "__class__": "City"
+    },
+    "City.561a55f4-7d82-47d9-b54c-a76916479552": {
+        "state_id": "421a55f4-7d82-47d9-b54c-a76916479552",
+        "name": "Joliet",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "561a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "City"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479545": {
+        "name": "Alabama",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479545",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479546": {
+        "name": "Arizona",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479546",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479547": {
+        "name": "California",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479547",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479548": {
+        "name": "Colorado",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479548",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479549": {
+        "name": "Florida",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479549",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479550": {
+        "name": "Georgia",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479550",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479551": {
+        "name": "Hawaii",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479551",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479552": {
+        "name": "Illinois",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479553": {
+        "name": "Indiana",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479553",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479554": {
+        "name": "Louisiana",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479554",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479555": {
+        "name": "Minnesota",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479555",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479556": {
+        "name": "Mississippi",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479556",
+        "__class__": "State"
+    },
+    "State.421a55f4-7d82-47d9-b54c-a76916479557": {
+        "name": "Oregon",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "421a55f4-7d82-47d9-b54c-a76916479557",
+        "__class__": "State"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479551": {
+        "name": "Wifi",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479551",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479552": {
+        "name": "Pets friendly",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479552",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479553": {
+        "name": "Elevator in building",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479553",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479554": {
+        "name": "Doorman",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479554",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479555": {
+        "name": "Cable TV",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479555",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479556": {
+        "name": "Dryer",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479556",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479557": {
+        "name": "Hair dryer",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479557",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479558": {
+        "name": "Iron",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479558",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479559": {
+        "name": "Washer",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479559",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479560": {
+        "name": "Laundry room",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479560",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479561": {
+        "name": "Air conditioning",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479561",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479562": {
+        "name": "Hot tub",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479562",
+        "__class__": "Amenity"
+    },
+    "Amenity.821a55f4-7d82-47d9-b54c-a76916479563": {
+        "name": "Smoking allowed",
+        "created_at": "2023-02-25T20:14:30.354616",
+        "updated_at": "2023-02-25T20:14:30.354616",
+        "id": "821a55f4-7d82-47d9-b54c-a76916479563",
+        "__class__": "Amenity"
+    }
+}
